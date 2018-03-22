@@ -4,5 +4,6 @@ db.json
 .idea/
 *.log
 node_modules/
+dist/
 public/
 .deploy*/

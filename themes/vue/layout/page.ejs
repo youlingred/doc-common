@@ -12,7 +12,7 @@
   <% if (page.type) { %>
     <% if (page.type === 'menu') { %>
       <form id="search-form">
-        <input type="text" id="search-query-menu" class="search-query st-default-search-input">
+        <input type="text" style="display: none;" id="search-query-menu" class="search-query st-default-search-input">
       </form>
       <%- partial('partials/toc', { type: 'guide' }) %>
     <% } %>
