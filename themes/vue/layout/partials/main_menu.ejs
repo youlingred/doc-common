@@ -1,0 +1,24 @@
+<li>
+    <form id="search-form">
+        <input type="text" id="search-query-<%- context %>" class="search-query st-default-search-input">
+    </form>
+</li>
+<% for (var link in site.data.menu) {
+    var item = site.data.menu[link] %>
+<li class="nav-dropdown-container">
+    <a class="nav-link"><%= item.title %></a>
+    <% if(item.children.length > 0) { %>
+    <span class="arrow"></span>
+    <ul class="nav-dropdown">
+        <li>
+            <ul>
+                <% for (var child in item.children) {
+                    var itemChild = item.children[child] %>
+                <li><a href="<%= '/pages'+itemChild.path %>" class="nav-link"><%= itemChild.title %></a></li>
+                <% } %>
+            </ul>
+        </li>
+    </ul>
+    <% } %>
+</li>
+<% } %>

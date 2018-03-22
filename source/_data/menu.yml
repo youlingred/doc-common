@@ -1,0 +1,13 @@
+
+- name: doc
+  title: 文档
+  path: /doc
+  children:
+    - name: guide
+      title: 教程
+      path: /doc/guide
+      children: []
+    - name: styls
+      title: 样式
+      path: /doc/styls
+      children: []
