@@ -7,7 +7,3 @@
       title: 教程
       path: /doc/guide
       children: []
-    - name: styls
-      title: 样式
-      path: /doc/styls
-      children: []
