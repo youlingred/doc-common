@@ -1,6 +1,8 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "{{projectName}}",
+  "description": "{{projectDescription}}",
+  "version": "{{projectVersion}}",
+  "author": "{{projectAuthor}}",
   "private": true,
   "hexo": {
     "version": "3.6.0"
