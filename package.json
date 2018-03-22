@@ -1,6 +1,8 @@
 {
-  "name": "hexo-site",
+  "name": "doc-common",
+  "description": "",
   "version": "0.0.0",
+  "author": "xxx",
   "private": true,
   "hexo": {
     "version": "3.6.0"
